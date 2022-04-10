@@ -58,3 +58,17 @@ var n = 5.2343
 // console.log(Math.pow(2 , 3))
 // console.log(Math.sqrt(9))
 // console.log(Math.round(Math.random()*50+1))
+
+
+//les-18-date function in js
+
+var date = new Date();
+console.log(date.toDateString())
+console.log(date.toTimeString())
+console.log(date.toLocaleString())
+console.log(date.getDate())
+console.log(date.getFullYear())
+console.log(date.getMonth())
+console.log(date.getHours())
+console.log(date.getMinutes())
+console.log(date.getSeconds())
