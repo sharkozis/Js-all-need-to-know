@@ -40,3 +40,21 @@ console.log(l === h) // for checking both value and types of data are same
 console.log(l !== h) // for checking both value and types of data are not same
 
 */
+//les-16-statement
+
+var number = 10 + (30/5)*5;
+// any workable line or code is define as a statement in js
+
+//les-17-js Math Function
+// console.log(Math.E)
+// console.log(Math.PI)
+var n = 5.2343
+// console.log(Math.abs(n))
+// console.log(Math.floor(n))
+// console.log(Math.ceil(n))
+// console.log(Math.round(n))
+// console.log(Math.max(200,400,600,800))
+// console.log(Math.min(200,300,400))
+// console.log(Math.pow(2 , 3))
+// console.log(Math.sqrt(9))
+// console.log(Math.round(Math.random()*50+1))
