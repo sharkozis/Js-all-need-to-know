@@ -63,12 +63,44 @@ var n = 5.2343
 //les-18-date function in js
 
 var date = new Date();
-console.log(date.toDateString())
-console.log(date.toTimeString())
-console.log(date.toLocaleString())
-console.log(date.getDate())
-console.log(date.getFullYear())
-console.log(date.getMonth())
-console.log(date.getHours())
-console.log(date.getMinutes())
-console.log(date.getSeconds())
+// console.log(date.toDateString())
+// console.log(date.toTimeString())
+// console.log(date.toLocaleString())
+// console.log(date.getDate())
+// console.log(date.getFullYear())
+// console.log(date.getMonth())
+// console.log(date.getHours())
+// console.log(date.getMinutes())
+// console.log(date.getSeconds())
+
+
+// function compareValue(a,b){
+//     if(typeof a == typeof b){
+//         console.log('both same')
+//     }
+//     else{
+//         console.log('both not same')
+//     }
+// }
+
+// const result = compareValue(11,12)
+// console.log(result);
+
+
+
+
+function randCompare(rand,highNum){
+    const rand = Math.round(Math.random()*3+1);
+    const highNum = 2;
+    if(rand > highNum){
+        console.log('rand is bigger')
+    }
+    else{
+        console.log('highNum is bigger')
+    }
+
+    return randCompare;
+}
+
+
+
